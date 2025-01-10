@@ -2,11 +2,16 @@
 
 shell-integration = fish
 term = xterm-256color
+clipboard-read = allow
+clipboard-write = allow
 background-opacity = 0.9
 background-blur-radius = 10
-palette = 17=#0303B0
-palette = 18=#0101B2
+background = #101112
+palette = 17=#0202D2
+palette = 18=#0303CE
+palette = 19=#0101D2
 font-size = 14
-macos-option-as-alt = true
 mouse-hide-while-typing = true
 mouse-shift-capture = true
+macos-option-as-alt = true
+copy-on-select = clipboard
